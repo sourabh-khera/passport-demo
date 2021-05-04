@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TextInput from "../../components/textInput";
+import TextInput from "../../components/textInput/textInput";
 import LoginButton from "../../components/button";
 import "./style.css";
 

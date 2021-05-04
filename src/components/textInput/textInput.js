@@ -1,7 +1,14 @@
 import React from "react";
 import "./style.css";
 
-const textInput = ({ placeholder, handleChange, name, value, type }) => {
+const textInput = ({
+  placeholder,
+  handleChange,
+  name,
+  value,
+  type,
+  testId,
+}) => {
   return (
     <div>
       <input
@@ -12,6 +19,7 @@ const textInput = ({ placeholder, handleChange, name, value, type }) => {
         className="text_input"
         name={name}
         value={value}
+        data-testid={testId}
       />
     </div>
   );
